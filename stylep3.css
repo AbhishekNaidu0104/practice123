@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid gray;
+    height: 280px;
+    width: 450px;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 20px;
+}
+.head{
+    margin-bottom: 10px;
+}
+.prof{
+    display: flex;
+    justify-content: space-between;
+
+}
+.icon1{
+    margin-top: 35px;
+    margin-left:  20px;
+    height: 75px;
+    width: 75px;
+    clip-path: circle();
+}
+.icon2{
+    margin-top: 35px;
+    margin-right:  130px;
+    height: 75px;
+    width: 75px;
+    clip-path: circle();
+}
+.p{
+    color: grey;
+}
+.footer{
+    color: steelblue;
+    margin-top: 20px;
+}
